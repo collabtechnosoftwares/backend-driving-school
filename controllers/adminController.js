@@ -4,6 +4,8 @@ import Learner from '../models/LearnerSchema.models.js';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import fast2sms from 'fast-two-sms';// Install using `npm install fast-two-sms`
+import dotenv from "dotenv";
+dotenv.config();
 
 
 // Adjust path as per your project
